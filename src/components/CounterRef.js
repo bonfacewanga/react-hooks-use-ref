@@ -11,7 +11,9 @@ function CounterRef() {
   return (
     <div>
       <h1>CounterRef</h1>
-      <button onClick={handleClick}>{count.current}</button>
+      <button onClick={handleClick}>
+        {count.current}
+      </button>
     </div>
   );
 }

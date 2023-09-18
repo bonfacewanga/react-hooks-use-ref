@@ -6,6 +6,7 @@ import Ticker from "./Ticker";
 import TickerChart from "./TickerChart";
 
 function App() {
+  
   return (
     <>
       <CounterState />
